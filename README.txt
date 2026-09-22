@@ -1,10 +1,9 @@
-YESPSAYT Android v1.0
-URL: https://boltcatdirilma.tekdemonx.workers.dev/driver
-Package: com.yespsayt.app
-
-APK çıxarma:
-1. Android Studio -> Open -> YESPSAYT_Android qovluğunu seç.
-2. Gradle sync bitəndən sonra Build -> Build APK(s).
-3. Debug APK: app/build/outputs/apk/debug/app-debug.apk
-
-Qeyd: Saytdan kənar linklər və reklam linkləri sistem brauzerində açılır. Sayt daxilində login cookie saxlanılır. File chooser sənəd/qəbz şəkli seçməyə imkan verir.
+YESPSAYT Android v1.1
+- Native neon splash screen
+- Native YESPSAYT welcome screen
+- Native driver login: vehicle plate + password
+- Native driver registration: first name + last name + vehicle plate + password + optional referral
+- Existing Cloudflare Worker authentication/session is reused
+- Driver cabinet opens in secure WebView after successful login/registration
+- Receipt/document file chooser supported
+- External links open in the phone browser
